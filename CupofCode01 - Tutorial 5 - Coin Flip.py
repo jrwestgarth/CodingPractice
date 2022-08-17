@@ -8,7 +8,7 @@ while flips < 1000:
         heads += 1
     flips += 1
     if flips == 900:
-        print('900 flips and there have been ' + str(heads) + ' heads.')
+        print('900 flips and there have been ' + str(heads) + ' too many heads.')
     if flips == 100:
         print('At 100 tosses, heads has come up ' + str(heads) + ' times so far.')
     if flips == 500:
